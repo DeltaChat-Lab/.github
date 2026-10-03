@@ -7,7 +7,10 @@ DeltaChat Lab是一个帮助普通人和小白为DeltaChat官方做贡献的组�
 
 # Points to Note for PR
 1. The content to be merged must at least pass the full suite of GitHub CI checks.
-
 2. Features must be practical; a feature cannot simply be a functional interface that ultimately serves no real purpose. For instance, consider a plugin system implemented via code injection: if the app undergoes code obfuscation after compilation, plugins developed based on the original source code might become unusable or restricted to minimal functionality (such as only sending messages)—scenarios that lack practical utility. To be eligible for merging, the submitter must provide at least one working example demonstrating the feature's utility, and the implementation must be verified as effective by a member of DeltaChat Lab.
-
 3. Maintain consistency: the UI must align with the official design, and title placement must match the official layout; otherwise, the software will ultimately devolve into an indescribable mess.
+4. If you wish to submit new features, bug fixes, or other contributions, please do so via an Issue. Issues must be written in English or in your native language accompanied by an English translation. This same requirement applies to all areas intended for discussion among the community, such as commit messages and Pull Requests.
+5. Please follow the tagging rules below for Git commit messages.
+# Tagging Rules
+1. Commit messages must be prefixed with a tag in the format `[Issue number@Identity]`—for example, `[#4731@humman]` or `[#2039@ai]`.
+2. Use the following tags to describe file changes and modifications: `Add:` for added content, `Del:` for deleted content, `Fix:` for fixes, and `Feature:` for new features.
