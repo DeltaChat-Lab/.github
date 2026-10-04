@@ -14,3 +14,5 @@ DeltaChat Lab是一个帮助普通人和小白为DeltaChat官方做贡献的组�
 # Tagging Rules
 1. Commit messages must be prefixed with a tag in the format `[Issue number@Identity]`—for example, `[#4731@humman]` or `[#2039@ai]`. Human commits must use the `humman` identity, while AI commits must use the `ai` identity.
 2. Use the following tags to describe file changes and modifications: `Add:` for added content, `Del:` for deleted content, `Fix:` for fixes, and `Feature:` for new features.
+# Issue
+Please submit the issue to `https://github.com/DeltaChat-Lab/issues/issues`
