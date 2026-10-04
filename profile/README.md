@@ -11,6 +11,10 @@ DeltaChat Lab是一个帮助普通人和小白为DeltaChat官方做贡献的组�
 3. Maintain consistency: the UI must align with the official design, and title placement must match the official layout; otherwise, the software will ultimately devolve into an indescribable mess.
 4. If you wish to submit new features, bug fixes, or other contributions, please do so via an Issue. Issues must be written in English or in your native language accompanied by an English translation. This same requirement applies to all areas intended for discussion among the community, such as commit messages and Pull Requests.
 5. Please follow the tagging rules below for Git commit messages.
+## Trigger Actions
+If you inadvertently pushed code after enabling GitHub Actions but the build did not trigger, you can create an empty commit with the message "Trigger Actions" to initiate the workflow.
+
+Use this command to create a trigger commit: `git commit -allow-empty -m "Trigger Actions"`
 # Tagging Rules
 1. Commit messages must be prefixed with a tag in the format `[Issue number@Identity]`—for example, `[#4731@humman]` or `[#2039@ai]`. Human commits must use the `humman` identity, while AI commits must use the `ai` identity.
 2. Use the following tags to describe file changes and modifications: `Add:` for added content, `Del:` for deleted content, `Fix:` for fixes, and `Feature:` for new features.
